@@ -1,0 +1,42 @@
+{
+  "name": "securise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "got": "^10.2.2",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.20.8",
+    "koa": "^2.11.0",
+    "koa-body": "^4.1.1",
+    "koa-etag": "^3.0.0",
+    "koa-helmet": "^5.2.0",
+    "koa-http-request": "^2.2.1",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "navaid": "^1.0.5",
+    "sirv-cli": "^0.4.4",
+    "socket.io": "^2.3.0",
+    "sqlite3": "^4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "@rollup/plugin-commonjs": "^11.0.0",
+    "@rollup/plugin-node-resolve": "^6.0.0",
+    "rollup": "^1.20.0",
+    "rollup-plugin-livereload": "^1.0.0",
+    "rollup-plugin-svelte": "^5.0.3",
+    "rollup-plugin-terser": "^5.1.2",
+    "svelte": "^3.0.0",
+    "concurrently": "^5.0.0",
+    "knex-cli": "*"
+  },
+  "scripts": {
+    "dev": "./node_modules/.bin/nodemon main.js"
+  }
+}
